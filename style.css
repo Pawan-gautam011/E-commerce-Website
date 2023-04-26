@@ -197,12 +197,15 @@ small{
 .footer-col-3,.footer-col-4{
     flex-basis: 12%;
     text-align: center;
+    cursor: pointer;
 }
+
 ul{
     list-style-type: none;
 }
 .app-logo{
     margin-top: 20px;
+    cursor: pointer;
 
 }
 .app-logo img{
@@ -233,6 +236,7 @@ ul{
         width: 100%;
         overflow: hidden;
         transition: max-height 0.5s;
+        
 
     }
     nav ul li{
